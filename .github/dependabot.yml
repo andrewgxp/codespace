@@ -5,4 +5,9 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-      time: "05:00"
+      time: "06:00"
+    # Make sure 'versions' is an array
+    ignore:
+      - dependency-name: "io.dropwizard:dropwizard-bom"
+        versions:
+          - ">=4.0.0 <5.0.0"
