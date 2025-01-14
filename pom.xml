@@ -13,7 +13,7 @@
 
   <properties>
     <!-- Pin Dropwizard to 3.0.8 so we can test upgrades to 3.0.11 or 4.x -->
-    <dropwizard.version>3.0.8</dropwizard.version>
+    <dropwizard.version>3.0.11</dropwizard.version>
   </properties>
 
   <dependencyManagement>
